@@ -1,0 +1,28 @@
+BUILD THE SCRIPT:
+
+STAGING:
+EVENT_ID(50) --> 250
+
+DW:
+INSRT_EVNT_ID(50) --> 250
+UPDT_EVNT_ID(50) --> 250
+
+HEATHLY_OPS_SCREENINGS_01001-01010100101011010101010101010010110.TXT --> E1234567
+
+2500+ JOBS
+
+
+
+EX:
+
+CURRENT:
+BEGIN DSSUBRECORD
+         Name "EVENT_ID"
+         Precision "50"
+         DisplaySize "50"
+
+FUTURE:
+BEGIN DSSUBRECORD
+         Name "EVENT_ID"
+         Precision "250"
+         DisplaySize "250"
